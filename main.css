@@ -1,0 +1,55 @@
+
+@media (min-width:1140px){
+    .container{
+        max-width: 1140px;
+    }
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #08101E;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.navbar .container .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    margin-left: 30px;
+    transition: all 0.4s ease;
+}
+.navbar .container .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(0, 0, 255);
+}
+.navbar .container .navbar-nav .nav-item .btn{
+    display:inline-block;
+    padding: 5px 25px;
+}
+.home{
+    padding:100px 50px;
+}
+.header__image{
+    width: 400px;
+    margin-top:0px;
+}
+.companies{
+    padding: 100px 20px;
+}
+.about__image{ 
+    width: 500px;
+}
+.services{
+    padding: 100px 20px;
+}
+.blog{
+    padding: 100px ;
+}
+.footer{
+    padding: 100px 0;
+}
